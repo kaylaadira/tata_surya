@@ -1,0 +1,501 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.in_header{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation{
+    height: 100%;
+    float: right;
+}
+
+.navigation a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.banner{
+    text-align: center;
+    padding-top: 50px;
+    display: block;
+}
+
+.heading{
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Helvetica';
+}
+
+.merkurius{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_merkurius{
+    float: left;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.merkurius h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+
+}
+
+.merkurius p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.merkurius a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.merkurius a:visited{
+    color: black;
+
+}
+
+.merkurius a:hover{
+    color: white;
+    background-color: black;
+}
+
+.venus{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_venus{
+    float: right;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.venus h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.venus p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.venus a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.venus a:visited{
+    color: black;
+
+}
+
+.venus a:hover{
+    color: white;
+    background-color: black;
+}
+
+.bumi{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_bumi{
+    float: left;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+.bumi h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+}
+
+.bumi p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.bumi a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.bumi a:visited{
+    color: black;
+
+}
+
+.bumi a:hover{
+    color: white;
+    background-color: black;
+}
+
+.mars{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_mars{
+    float: right;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.mars h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.mars p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.mars a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.mars a:visited{
+    color: black;
+
+}
+
+.mars a:hover{
+    color: white;
+    background-color: black;
+}
+
+.jupiter{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_jupiter{
+    float: left;
+    padding-right: 50px;
+    padding-top: 15px;
+}
+
+.jupiter h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+}
+
+.jupiter p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.jupiter a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.jupiter a:visited{
+    color: black;
+
+}
+
+.jupiter a:hover{
+    color: white;
+    background-color: black;
+}
+
+.saturnus{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_saturnus{
+    float: right;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.saturnus h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.saturnus p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.saturnus a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.saturnus a:visited{
+    color: black;
+
+}
+
+.saturnus a:hover{
+    color: white;
+    background-color: black;
+}
+
+.uranus{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_uranus{
+    float: left;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.uranus h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+}
+
+.uranus p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.uranus a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.uranus a:visited{
+    color: black;
+
+}
+
+.uranus a:hover{
+    color: white;
+    background-color: black;
+}
+
+.neptunus{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img_neptunus{
+    float: right;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.neptunus h3{
+    font-family: 'Helvetica';
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.neptunus p{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.neptunus a:link{
+    font-family: 'Helvetica';
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+    color: black;
+    font-weight: bold;
+}
+
+.neptunus a:visited{
+    color: black;
+
+}
+
+.neptunus a:hover{
+    color: white;
+    background-color: black;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.in_footer{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fnav{
+    height: 100%;
+    float: right;
+}
+
+.fnav a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.fnav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}

@@ -1,0 +1,142 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica';
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.in_header{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation{
+    height: 100%;
+    float: right;
+}
+
+.navigation a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.content{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content h2{
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.container{
+    border-radius: 5px;
+    background-color: #191824;
+    padding: 16px;
+
+}
+
+.container label{
+    color: white;
+}
+
+input[type=text], input[type=password], input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #D9C9DF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #D9C9DF;
+}
+
+::placeholder{
+    color: black;
+}
+
+button {
+    border-color: #6248A8;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btnbatal {
+    padding: 14px 20px;
+    color: #6248A8;
+    background-color: none;
+}
+
+.btndaftar{
+    background-color: #6248A8;
+    color: white;
+}
+
+.btndaftar, .btnbatal {
+    float: left;
+    width: 50%;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.in_footer{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fnav{
+    height: 100%;
+    float: right;
+}
+
+.fnav a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.fnav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}

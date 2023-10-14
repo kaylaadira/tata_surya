@@ -1,0 +1,210 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.in_header{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navigation{
+    height: 100%;
+    float: right;
+}
+
+.navigation a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Helvetica';
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 50px;
+    display: block;
+}
+
+.content h2{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.content h2 img{
+    float: right;
+    margin-left: 70px;
+}
+
+.content_planet{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Helvetica';
+}
+
+.merkurius{
+    float: left;
+    display: block;
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.text1{
+    text-align: center;
+    padding-top: 80px;
+}
+.venus{
+    float: left;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+.text2{
+    text-align: center;
+    padding-top: 70px;
+}
+.bumi{
+    float: left;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+.text3{
+    text-align: center;
+    padding-top: 70px;
+}
+.mars{
+    float: left;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.text4{
+    text-align: center;
+    padding-top: 70px;
+}
+.jupiter{
+    float: left;
+}
+.text5{
+    text-align: center;
+}
+.saturnus{
+    float: left;
+    padding-right: 30px;
+}
+.text6{
+    text-align: center;
+}
+.uranus{
+    float: left;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.text7{
+    text-align: center;
+    padding-top: 10px;
+}
+.neptunus{
+    float: left;
+    padding-top: 60px;
+}
+.text8{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.pharagraph{
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.footer{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.in_footer{
+    display: block;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fnav{
+    height: 100%;
+    float: right;
+}
+
+.fnav a{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.fnav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-size: 15px;
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.content_daftar{
+    padding-top: 580px;
+    padding-bottom: 50px;
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Helvetica';
+}
+
+.content_daftar h2{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.content_daftar p{
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    font-size: 15px;
+    line-height: 1.8;
+}
